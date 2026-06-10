@@ -221,3 +221,22 @@ a { text-decoration: none; color: inherit; transition: var(--t); }
 @media (max-width: 992px) {
     .contact-grid { grid-template-columns: 1fr; }
 }
+
+.description {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.description-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.description h2 {
+    margin-bottom: 20px;
+}
+
+.description p {
+    line-height: 1.8;
+    font-size: 18px;
+}
